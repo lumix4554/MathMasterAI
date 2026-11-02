@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Runtime data
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+logs/
+*.log
+*.jsonl
+.mathmaster_bot.lock
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
