@@ -198,7 +198,7 @@ def _parse_bool(v: Optional[str], default: bool = False) -> bool:
     return s in ("1", "true", "yes", "on", "y", "t")
 
 
-BOT_TOKEN = _getenv_any(["BOT_TOKEN", "TELEGRAM_BOT_TOKEN"], "7955033715:AAHCitRiRD7nFTeX8YO-B1heGlneRAxuLto")
+BOT_TOKEN = _getenv_any(["BOT_TOKEN", "TELEGRAM_BOT_TOKEN"], "")
 
 DB_PATH = _getenv_any(["DB_PATH"], str(PROJECT_ROOT / "mathmaster.sqlite3"))
 OFFLINE_MODE = _parse_bool(os.getenv("OFFLINE_MODE", "false"), False)
@@ -214,7 +214,7 @@ GROQ_API_KEY = _getenv_any(["GROQ_API_KEY"], "")
 GROQ_BASE_URL = _getenv_any(["GROQ_BASE_URL"], "https://api.groq.com/openai/v1").rstrip("/")
 GROQ_MODEL = _getenv_any(["GROQ_MODEL"], "llama-3.1-8b-instant")
 
-XAI_API_KEY = _getenv_any(["XAI_API_KEY"], "xai-ijRV1Utjwn3lhVXid0SDHkQWp7lNHxYzGwzD18f2Gej0EAHeF4jTsaSxN5AlRgiyRn4TfIzutqfXilFb")
+XAI_API_KEY = _getenv_any(["XAI_API_KEY"], "")
 XAI_BASE_URL = _getenv_any(["XAI_BASE_URL"], "https://api.x.ai/v1").rstrip("/")
 XAI_MODEL = _getenv_any(["XAI_MODEL"], "grok-3-latest")
 
