@@ -1,6 +1,10 @@
 # MathMaster AI
 
 <p align="center">
+  <img src="assets/mathmaster-logo.svg" alt="MathMaster AI logo" width="520">
+</p>
+
+<p align="center">
   <strong>Telegram-based mathematics learning assistant</strong><br>
   Learn concepts, solve problems, practise exam topics, and track progress.
 </p>
@@ -10,12 +14,20 @@
   <img src="https://img.shields.io/badge/Platform-Telegram-26A5E4?logo=telegram&logoColor=white" alt="Telegram">
   <img src="https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white" alt="SQLite">
   <img src="https://img.shields.io/badge/Math-SymPy-3B5526" alt="SymPy">
-  <img src="https://img.shields.io/badge/Status-Active%20development-orange" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Active%20development-orange" alt="Status"><br>
+  <img src="https://github.com/lumix4554/MathMasterAI/actions/workflows/python-check.yml/badge.svg" alt="Python checks">
 </p>
 
 **MathMaster AI** is an educational Telegram bot designed to make mathematics more approachable through interactive explanations, mathematical tools, structured practice, and AI-assisted learning.
 
 The project brings together symbolic mathematics, graph visualisation, exam-oriented learning content, OCR experiments, and learner progress tracking in one Python application.
+
+## Project documentation
+
+- [Architecture overview](docs/ARCHITECTURE.md)
+- [Contributing guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [Example environment configuration](.env.example)
 
 ## Highlights
 
@@ -71,11 +83,16 @@ The current application is intentionally maintained as a single-file Python proj
 ```text
 MathMasterAI/
 ├── math_bot Math Master.py   # Telegram bot and application logic
+├── assets/                   # Project branding assets
+├── docs/                     # Architecture and technical documentation
+├── .github/                  # CI workflow and issue templates
 ├── README.md                 # Project documentation
+├── CONTRIBUTING.md           # Contribution guidelines
+├── SECURITY.md               # Security policy
 ├── requirements.txt          # Core Python dependencies
 ├── requirements-ocr.txt      # Optional OCR dependencies
 ├── .gitignore                # Local files and secrets excluded from Git
-└── .env                      # Local configuration (create this yourself)
+└── .env                      # Local configuration (create this yourself; not committed)
 ```
 
 SQLite databases and log files are created locally at runtime and should not be committed.
