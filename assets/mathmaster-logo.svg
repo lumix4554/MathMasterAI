@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">MathMaster AI</title>
+  <desc id="desc">A modern mathematics-inspired logo with a sigma symbol and a rising graph.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#25205A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="216" height="216" rx="54" fill="url(#bg)"/>
+  <path d="M66 62h100l-63 58 63 58H66" fill="none" stroke="url(#accent)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 166l34-32 25 13 40-48" fill="none" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="175" cy="99" r="7" fill="#22D3EE"/>
+  <text x="270" y="112" fill="#111827" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2">MathMaster</text>
+  <text x="273" y="171" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="10">AI</text>
+  <path d="M370 160h250" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+</svg>
